@@ -1,0 +1,26 @@
+Projector intrinsic matrix
+
+1 <- -0.09 = -0.1 * (img_w-1)/img_w
+10 <- 0.09 = 0.1  * (img_w-1)/img_w
+
+img_w=10, fov_w=11.42 degree -> x_projector = 50x + 5.5
+
+1 <- -0.075 = -0.1 * (img_w-1)/img_w
+4 <- 0.075  = 0.1  * (img_w-1)/img_w
+
+img_w=4, fov_w=11.42 degree -> x_projector = 20x + 2.5
+
+
+1 <- -0.05 = -0.1 * (img_w-1)/img_w
+2 <- 0.05  = 0.1  * (img_w-1)/img_w
+img_w=2, fov_w=11.42 degree -> x_projector = 10x + 1.5
+
+
+0.1 = tan(fov_w/2)
+
+
+x_projector =  (img_w-1)/(2*tan(fov_w/2)*(img_w-1)/img_w) x + (img_w+1)/2
+            = img_w/(2*tan(fov_w/2)) x + (img_w+1)/2
+
+
+

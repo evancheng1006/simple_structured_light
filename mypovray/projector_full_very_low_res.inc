@@ -1,0 +1,23 @@
+//projector_name: projector_full_very_low_res
+//fov_deg: (11.42, 11.42)
+//img_shape: (4, 4)
+//spotlight_size_factor: 1.418000
+//intrinsic_matrix = [[20.002091361363767, 0, 2.5], [0, 20.002091361363767, 2.5], [0, 0, 1]]
+#declare projector_full_very_low_res = union {
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.074992,-0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.074992,-0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.074992,0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.074992,0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.024997,-0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.024997,-0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.024997,0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <-0.024997,0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.024997,-0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.024997,-0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.024997,0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.024997,0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.074992,-0.074992,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.074992,-0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.074992,0.024997,1.000000>}
+light_source {<0.000000,0.000000,0.000000> color <1.000000,1.000000,1.000000> spotlight radius 2.030073 falloff 2.030073 point_at <0.074992,0.074992,1.000000>}
+}
